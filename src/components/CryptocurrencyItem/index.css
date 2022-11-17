@@ -1,0 +1,27 @@
+.currency-list-item {
+  display: flex;
+  list-style-type: none;
+}
+.currency-logo-name-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.currency-logo {
+  width: 30px;
+}
+.currency-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+.currencies-value-container {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+.currency-value {
+  color: #ffffff;
+  font-size: 20px;
+}
